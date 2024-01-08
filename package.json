@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "socket.io-client": "^4.7.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-confirm-alert": "^3.0.6",
+    "react-data-table-component": "^7.5.4",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.5.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "ws": "^8.16.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "20.9"
+  },
+  "name": "full-stack-final-year",
+  "description": "Welcome to the repository for the Full Stack Module coursework, where we embark on the exciting journey of building a comprehensive Gym Workout Record System. This project is designed to showcase your proficiency in constructing a fully functional full-stack system that meets a set of rigorous requirements.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
